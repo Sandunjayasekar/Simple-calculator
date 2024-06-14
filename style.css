@@ -52,3 +52,19 @@ form .display input {
 form input.equal {
     width: 145px;
 }
+
+form input.operator {
+    color: #33ffd8;
+}
+
+form h1 {
+    color: #191a1a;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 0 0 5px #33ffd8, 0 0 5px #33ffd8, 0 0 5px #33ffd8, 0 0 5px #33ffd8, 0 0 5px #33ffd8, 0 0 5px #33ffd8, 0 0 5px #33ffd8;
+     
+}
