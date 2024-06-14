@@ -27,10 +27,28 @@
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.5), 5px 5px 15px rgba(255, 25, 0, 0.5);
+    box-shadow: -8px -8px 15px rgba(76, 136, 189, 0.5), 5px 5px 15px rgba(101, 125, 214, 0.5);
     background: transparent;
-    font-size: 20px;
+    font-size: 25px;
     color: #fff;
     cursor: pointer;
     margin: 10px;
+}
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    box-shadow: 0 0 0 10px #6c7b90, -8px -8px 15px rgba(76, 136, 189, 0.5), 5px 5px 15px rgba(163, 170, 197, 0.5);
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.equal {
+    width: 145px;
 }
