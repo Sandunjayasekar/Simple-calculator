@@ -4,15 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Simple Calculator</h1>
-        <form action="/" method="POST">
-            <input type="text" name="num1" placeholder="First Number">
-            <input type="text" name="num2" placeholder="Second Number">
-            <button type="submit" name="submit">Calculate</button>
+       <div class="calculator">
+        <form>
+            <h1>Simple Calculator</h1>
+
+            <div>
+                <input type="text" name="display" id="display">
+            </div>
+
+            <div>
+                <input type="button" value="AC">
+                <input type="button" value="DE">
+                <input type="button" value=".">
+                <input type="button" value="/">
+            </div>
+            <div>
+                <input type="button" value="7">
+                <input type="button" value="8">
+                <input type="button" value="9">
+                <input type="button" value="*">
+            </div>
+            <div>
+                <input type="button" value="4">
+                <input type="button" value="5">
+                <input type="button" value="6">
+                <input type="button" value="-">
+            </div>
+            <div>
+                <input type="button" value="00">
+                <input type="button" value="0">
+                <input type="button" value="=">
+                <input type="button" value="+">
+            </div>
         </form>
+       </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
